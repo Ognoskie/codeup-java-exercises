@@ -15,23 +15,20 @@ public class HelloWorld {
         double myNumber = 3.14;
         System.out.println(myNumber);
 //        int y = 5;
-//        System.out.println(y++);
+//      y += 5;
 //        System.out.println(y);
-//        int x = 6;
-//        System.out.println(++x);
-//        System.out.println(x);
-//        int x = 4;
-//        System.out.println(x++);
-//        System.out.println(x);
         int x = 3;
         int y = 4;
-        y = y * x;
+        y *= x;
         System.out.println(y);
         int a = 10;
         int b = 2;
-        a = a / b;
-        b = b - a;
+        a/= b;
+        b -= a;
+        System.out.println(a);
         System.out.println(b);
+
+
 
 
 
