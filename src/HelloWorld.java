@@ -28,10 +28,13 @@ public class HelloWorld {
         System.out.println(a);
         System.out.println(b);
 
+//        byte exampleByte = -200;
+        // throws compilation error
 
-
-
-
+        byte exampleByte = 127;
+        exampleByte += 2;
+        System.out.println(exampleByte);
+// when we increment past the type's capacity, it will loop to the lower (or upper if we're subtracting) bounds of what that data type holds.
 
     }
 }
