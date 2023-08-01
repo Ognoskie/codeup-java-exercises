@@ -33,19 +33,19 @@ public class ConsoleIo {
 //        String userInput = sc.nextLine();
 //        System.out.printf("Your sentence was: " + userInput);
 
-		System.out.println("Enter length: ");
-		String userLengthInput = sc.nextLine();
-		int length = Integer.parseInt(userLengthInput);
-//		System.out.println(length);
-		System.out.println("Enter width: ");
-		String userWidthInput = sc.nextLine();
-		int width = Integer.parseInt(userWidthInput);
-//		System.out.println(width);
-
-		int area = length * width;
-		int perimeter = (length * 2) + (width * 2);
-
-		System.out.printf("The area ");
+//		System.out.println("Enter length: ");
+//		String userLengthInput = sc.nextLine();
+//		int length = Integer.parseInt(userLengthInput);
+////		System.out.println(length);
+//		System.out.println("Enter width: ");
+//		String userWidthInput = sc.nextLine();
+//		int width = Integer.parseInt(userWidthInput);
+////		System.out.println(width);
+//
+//		int area = length * width;
+//		int perimeter = (length * 2) + (width * 2);
+//
+//		System.out.printf("The area ");
 
 
 
