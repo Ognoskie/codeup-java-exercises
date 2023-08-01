@@ -36,5 +36,19 @@ public class HelloWorld {
         System.out.println(exampleByte);
 // when we increment past the type's capacity, it will loop to the lower (or upper if we're subtracting) bounds of what that data type holds.
 
+
+//  CONSOLE IO LECTURE AND EXERCISE
+
+//    String name = "Braden";
+//        System.out.printf("Hello there, %s. Nice to meet you.%n", name);
+
+
+        String greeting = "Salutations";
+        String name = "Braden";
+        System.out.printf("%s, %s!", greeting, name);
+
+
+
+
     }
 }
