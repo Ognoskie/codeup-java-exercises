@@ -1,7 +1,9 @@
 import java.util.Scanner;
+
 public class ControlFlowExercises {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+
 
 //		1. Loop Basics
 //
@@ -94,27 +96,52 @@ public class ControlFlowExercises {
 
 
 
+//		 for (int i = 1; i <= 100; i++) {
+//			if (i % 3 == 0 && i % 5 == 0) {
+//				System.out.println("fizzbuzz");
+//			} else if (i % 5 == 0) {
+//				System.out.println("buzz");
+//			} else if (i % 3 == 0){
+//				System.out.println("fizz");
+//			} else {
+//				System.out.println(i);
+//			}
+//		}
 
 
+		/////////////////////////////////////
+		//Display a table of powers.
+		//
+//		Prompt the user to enter an integer.
+//		Display a table of squares and cubes from 1 to the value entered.
+//		Ask if the user wants to continue.
+//		Assume that the user will enter valid data.
+//		Only continue if the user agrees to.
+//		Example Output
+//
+//		What number would you like to go up to? 5
+//
+//		Here is your table!
+//
+//		number | squared | cubed
+//		------ | ------- | -----
+//		1      | 1       | 1
+//		2      | 4       | 8
+//		3      | 9       | 27
+//		4      | 16      | 64
+//		5      | 25      | 125
 
-
-
-
-		 for (int i = 1; i <= 100; i++) {
-			if (i % 3 == 0 && i % 5 == 0) {
-				System.out.println("fizzbuzz");
-			} else if (i % 5 == 0) {
-				System.out.println("buzz");
-			} else if (i % 3 == 0){
-				System.out.println("fizz");
-			} else {
-				System.out.println(i);
-			}
-		}
-
-
-
-
+//		System.out.println("Pick a number");
+//		int userInput = sc.nextInt();
+//
+//		Object[][] data = new Object[maxValue][3];
+//		for (int i = 1; i <= maxValue; i++) {
+//			data[i - 1][0] = i;
+//			data[i - 1][1] = i * i;
+//			data[i - 1][2] = i * i * i;
+//		};
+//
+//		String[] columnNames = {"number", "squared", "cubed"};
 
 
 
