@@ -156,18 +156,7 @@ public class StringExercise {
 //		-He answers 'Whatever.' to anything else.
 //		-Write the Java code necessary so that a user of your command line application can have a conversation with Bob.
 
-		System.out.println("Say something to bob");
-		String userInput = sc.nextLine();
 
-		if (userInput.endsWith("?")) {
-			System.out.println("Sure.");
-		} else if (userInput.endsWith("!")) {
-			System.out.println("Whoa, chill out!");
-		} else if (userInput.isEmpty()) {
-			System.out.println("Fine. Be that way!");
-		} else {
-			System.out.println("Whatever");
-		}
 
 
 
