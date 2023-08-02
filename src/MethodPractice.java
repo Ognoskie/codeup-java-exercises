@@ -129,7 +129,6 @@ public class MethodPractice {
 //        }
 
 
-
 		/**
 		 * OVERLOAD MINI-EXERCISES
 		 */
@@ -144,37 +143,27 @@ public class MethodPractice {
 		// TODO: overload the math exercises from the curriculum exercise to work with both integers and doubles
 
 
-
 	}
-
-
-
-
 
 
 // TODO: Create a new class called MethodPractice and add main method to test these methods...
-		// TODO: Write a method, returnName, that returns the string of your name.
-		// TODO: Write a method, returnLongerString, that takes in two strings and returns the longer of the two strings.
-		// TODO: Write a method, canBeHalved, that takes in an integer and returns true if the input integer is evenly divisible by two.
-		// TODO: !! Complete math exercises from the curriculum !!
+	// TODO: Write a method, returnName, that returns the string of your name.
+	// TODO: Write a method, returnLongerString, that takes in two strings and returns the longer of the two strings.
+	// TODO: Write a method, canBeHalved, that takes in an integer and returns true if the input integer is evenly divisible by two.
+	// TODO: !! Complete math exercises from the curriculum !!
 
 
-		public static String returnName(String str) {
+	public static String returnName(String str) {
 		return "braden";
-		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	}
+
+
+
+
+
+
+
+
+
 }
+
