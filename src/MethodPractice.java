@@ -31,12 +31,46 @@ public class MethodPractice {
 
 
 
-	public static void main(String[] args) {
-	String name = returnName();
-		System.out.println(name);
-		String longestString = returnLongString("Name", "Dog");
-		System.out.println(longestString);
-		System.out.println(canBeHalved(10));
+	/**
+	 * OVERLOAD MINI-EXERCISES
+	 */
+//
+//	 TODO: create a method, sayName, that can take in a single name String input or two name String inputs and will return
+//	  a greeting message to the user by either their first or first and last name.
+
+	// example: sayName("Justin") - "Hi Justin"
+	// example: sayName("Justin", "Reich") - "Hi Justin Reich"
+
+
+	// TODO: overload the math exercises from the curriculum exercise to work with both integers and doubles
+
+
+
+	// have it return a greeting message to the user with their name
+
+public class myClass {
+		public static String sayName(String str1) {
+			return str1;
+
+		}
+		public static String sayName(String str1, String str2) {
+			return str1 + str2;
+		}
+
+
+		public static void main(String[] args) {
+			String name = returnName();
+			System.out.println(name);
+			String longestString = returnLongString("Name", "Dog");
+			System.out.println(longestString);
+			System.out.println(canBeHalved(10));
+			System.out.println(sayName("Braden"));
+			System.out.println(sayName("brad", "Ognoskie"));
+
+	}
+
+
+
 
 
  /*
@@ -161,18 +195,15 @@ public class MethodPractice {
 //        }
 
 
-		/**
-		 * OVERLOAD MINI-EXERCISES
-		 */
-
-		// TODO: create a method, sayName, that can take in a single name String input or two name String inputs and will return
-		//  a greeting message to the user by either their first or first and last name.
-
-		// example: sayName("Justin") - "Hi Justin"
-		// example: sayName("Justin", "Reich") - "Hi Justin Reich"
 
 
-		// TODO: overload the math exercises from the curriculum exercise to work with both integers and doubles
+
+
+
+
+
+
+
 
 
 	}
