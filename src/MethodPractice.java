@@ -48,14 +48,11 @@ public class MethodPractice {
 
 	// have it return a greeting message to the user with their name
 
-public class myClass {
-		public static String sayName(String str1) {
-			return str1;
 
-		}
-		public static String sayName(String str1, String str2) {
-			return str1 + str2;
-		}
+
+//		public static String sayName(String str1, String str2) {
+//			return str1 + str2;
+//		}
 
 
 		public static void main(String[] args) {
@@ -64,8 +61,8 @@ public class myClass {
 			String longestString = returnLongString("Name", "Dog");
 			System.out.println(longestString);
 			System.out.println(canBeHalved(10));
-			System.out.println(sayName("Braden"));
-			System.out.println(sayName("brad", "Ognoskie"));
+//			System.out.println(sayName("Braden"));
+//			System.out.println(sayName("brad", "Ognoskie"));
 
 	}
 
@@ -224,5 +221,5 @@ public class myClass {
 
 
 
-}
+
 
