@@ -1,10 +1,42 @@
 import java.util.Scanner;
 public class MethodPractice {
 
-	public static void main(String[] args) {
+
+
+
+	// TODO: !! Complete math exercises from the curriculum !!
+
+
+	// TODO: Write a method, returnName, that returns the string of your name.
+	public static String returnName() {
+		System.out.println("Whats your name?");
 		Scanner sc = new Scanner(System.in);
+		String userInput  = sc.nextLine();
+		return userInput;
+
+	}
 
 
+	// TODO: Write a method, returnLongerString, that takes in two strings and returns the longer of the two strings.
+	public static String returnLongString(String str1, String str2) {
+		return (str1.length() >= str2.length()) ? str1 : str2;
+	}
+
+
+	// TODO: Write a method, canBeHalved, that takes in an integer and returns true if the input integer is evenly divisible by two.
+
+	public static boolean canBeHalved(int integer) {
+		return integer % 2 == 0;
+	}
+
+
+
+	public static void main(String[] args) {
+	String name = returnName();
+		System.out.println(name);
+		String longestString = returnLongString("Name", "Dog");
+		System.out.println(longestString);
+		System.out.println(canBeHalved(10));
 
 
  /*
@@ -146,16 +178,12 @@ public class MethodPractice {
 	}
 
 
-// TODO: Create a new class called MethodPractice and add main method to test these methods...
-	// TODO: Write a method, returnName, that returns the string of your name.
-	// TODO: Write a method, returnLongerString, that takes in two strings and returns the longer of the two strings.
-	// TODO: Write a method, canBeHalved, that takes in an integer and returns true if the input integer is evenly divisible by two.
-	// TODO: !! Complete math exercises from the curriculum !!
 
 
-	public static String returnName(String str) {
-		return "braden";
-	}
+
+
+
+
 
 
 
