@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 public class MethodsExercises {
 
@@ -119,6 +120,10 @@ public class MethodsExercises {
 
 
 
+	public static int diceRoll(int numFaces) {
+	return new Random().nextInt(1, numFaces);
+	}
+
 
 
 
@@ -131,12 +136,25 @@ public class MethodsExercises {
 //		System.out.print("Enter a number between 1 and 10: ");
 //		int userInput = getInteger(1, 10);
 //		System.out.println("You entered: " + userInput);
+////
+//		System.out.print("Enter a number between 1 and 10: ");
+//		int userInput = getInteger(1, 10);
+//		System.out.println("You entered: " + userInput);
 //
-		System.out.print("Enter a number between 1 and 10: ");
-		int userInput = getInteger(1, 10);
-		System.out.println("You entered: " + userInput);
+//		System.out.println(factorial());
 
-		System.out.println(factorial());
+
+		// ask user how many sides do they want on the dice
+		System.out.println("How many faces do you want on the die?");
+		Scanner sc = new Scanner(System.in);
+		int numFace = sc.nextInt();
+		sc.nextLine();
+		System.out.println("Do you want to roll the die?(y/n)");
+		char userInput = sc.nextLine().charAt(0);
+		// make scan and get userInput
+		if (userInput == 'y') {
+			System.out.println("You rolled a " + diceRoll(numFace) + " and a " + diceRoll(numFace));
+		}
 
 
 	}
