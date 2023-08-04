@@ -35,7 +35,7 @@ public class Person {
 
 	// Instance Properties
 	private String name;
-
+// to access the Instance use the "this." to get that Instance property
 
 	public Person(){
 
