@@ -19,10 +19,33 @@ import java.util.Scanner;
 
 
 public class Input {
-	private Scanner sc = new Scanner(System.in);
+	private Scanner sc;
+
+public Input() {
+this.sc = new Scanner(System.in);
+}
 
 
-	public static boolean yesNo() {
-		if (userInput == charAt(0));
+public String getString() {
+	return sc.nextLine();
+}
+
+	public boolean yesNo() {
+	String userInput = sc.nextLine().trim().toLowerCase();
+	return userInput.equals("y") || userInput.equals("yes");
 	}
+
+
+	public static void main(String[] args) {
+		Input input = new Input();
+		System.out.print("Do you want to proceed? (y/n): ");
+		boolean answer = input.yesNo();
+		if (answer) {
+			System.out.println("You chose to continue.");
+		} else {
+			System.out.println("You chose to exit the program.");
+		}
+	}
+
+
 }
